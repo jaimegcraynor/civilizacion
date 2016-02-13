@@ -1,4 +1,5 @@
-
+#ifndef CLS_MUJER_H
+#define CLS_MUJER_H
 #include "humano.h"
 namespace humanidad
 {
@@ -10,3 +11,4 @@ namespace humanidad
 		~Cls_Mujer(void);
 	};
 }
+#endif //CLS_MUJER_H

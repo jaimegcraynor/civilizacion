@@ -1,17 +1,14 @@
-#include "StdAfx.h"
+
 #include "humano.h"
 
 
-#include <objidl.h>
-#include <gdiplus.h>
 
-using namespace Gdiplus;
 
 namespace humanidad
 {
-	void humano::DrawMe(Graphics * graphics)
+	void humano::DrawMe(/*Graphics * graphics*/)
 	{
-		Font myFont(L"Arial", 16);
+		/*Font myFont(L"Arial", 16);
 		RectF layoutRect(0.0f, 0.0f, 200.0f, 50.0f);
 		StringFormat format;
 		format.SetAlignment(StringAlignmentCenter);
@@ -26,7 +23,7 @@ namespace humanidad
    &blackBrush);
 	graphics->DrawRectangle(&Pen(Color::Black, 3), layoutRect);
 	
-
+*/
 
 	}
 	/*humano& humano::operator+(humano& a)

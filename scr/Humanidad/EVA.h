@@ -1,4 +1,5 @@
-
+#ifndef EVA_H
+#define EVA_H
 #include "Cls_Mujer.h"
 namespace humanidad
 {
@@ -9,7 +10,8 @@ namespace humanidad
 	friend class Dios;
 	public:
 		~EVA(void);
-	private:
+	//private: TODO:NEED TO PROTECT THIS
 		EVA(void);
 	};
 }
+#endif //EVA_H

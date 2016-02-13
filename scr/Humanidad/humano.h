@@ -1,4 +1,5 @@
-
+#ifndef HUMANO_H
+#define HUMANO_H
 #include "Dios.h"
 
 namespace humanidad
@@ -21,6 +22,7 @@ enum Genero_enum
 		humano(void);
 		char Nombre_[50];
 		Genero_enum Genero_;
+		void DrawMe();
 		//
 		virtual const Genero_enum Genero() = 0;
 	private:
@@ -31,3 +33,4 @@ enum Genero_enum
 	};
 
 }
+#endif //HUMANO_H

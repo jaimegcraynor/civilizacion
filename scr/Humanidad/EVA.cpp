@@ -1,10 +1,10 @@
-#include "StdAfx.h"
+#include "string.h"
 #include "EVA.h"
 namespace humanidad
 {
 	EVA::EVA(void)
 	{
-		wcsncpy_s (this->Nombre_ , L"EVA",3);
+		strcpy (this->Nombre_ , "EVA");
 	}
 
 	EVA::~EVA(void)

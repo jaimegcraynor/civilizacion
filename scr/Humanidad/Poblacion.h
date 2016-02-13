@@ -5,8 +5,10 @@ namespace humanidad
 {
 	class Poblacion
 	{
+
 		friend class Dios;
-		private:
+public:
+//private: TODO:need to protect this
 			//habitantes
 			int Habitantes_count_;
 			//hold pointer to each human.

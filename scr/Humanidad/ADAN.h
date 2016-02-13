@@ -1,6 +1,8 @@
+#ifndef ADAN_H
+#define ADAN_H
 
 #include "Cls_Hombre.h"
-
+#include "Dios.h"
 namespace humanidad
 {
 	class ADAN : public Cls_Hombre
@@ -9,9 +11,11 @@ namespace humanidad
 	friend class Dios;
 	public:
 		~ADAN(void);
-	private:
+	//private: TODO:NEED TO PROTECT THIS
 		ADAN(void);
 
 
 	};
 }
+
+#endif //ADAN_H

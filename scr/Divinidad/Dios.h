@@ -1,3 +1,5 @@
+#ifndef DIOS_H
+#define DIOS_H
 
 #include "Poblacion.h"
 
@@ -22,6 +24,7 @@ namespace Divinidad
 		
 	private:
 		Dios(void);
-		Poblacion poblacion_;
+		Poblacion * poblacion_;
 	};
 };
+#endif//DIOS_H

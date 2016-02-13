@@ -1,21 +1,21 @@
-#include "stdafx.h"
-
+#include "Dios.h"
+#include "humanidad.h"
 namespace Divinidad
 {
 
 	void * Dios::CreaHumanidad(void)
 	{
-		this->poblacion = new Poblacion();
-		this->poblacion->Habitantes_count_ = 2;
+		this->poblacion_ = new Poblacion();
+		this->poblacion_->Habitantes_count_ = 2;
 		//lets create Adan then Eva, just for fun.
         
 		//first human
 		ADAN * Adan = new ADAN();
 		EVA * Eva = new EVA();
-		this->poblacion[0] = (humano*)Adan;
-		this->poblacion[0] = (humano*)Eva;
+		/*this->poblacion_[0] = (humano*)Adan;
+		this->poblacion_[0] = (humano*)Eva;
 		*/
-		return (void*)NULL;//poblacion;
+		return (void*)0;//poblacion;
 	}
 
 

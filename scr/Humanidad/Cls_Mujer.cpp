@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+
 #include "Cls_Mujer.h"
 namespace humanidad
 {

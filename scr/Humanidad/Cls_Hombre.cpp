@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+
 #include "Cls_Hombre.h"
 #include "humano.h"
 namespace humanidad
