@@ -13,7 +13,7 @@ namespace humanidad
 
 	public:
 		~ADAN();
-
+		//un cambio muy simple
 	private: //TODO:NEED TO PROTECT THIS
 	ADAN();
 
