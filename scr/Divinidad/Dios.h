@@ -1,11 +1,28 @@
 #ifndef DIOS_H
 #define DIOS_H
 
-#include "Poblacion.h"
+#include "stdio.h"
+#include "stdlib.h"
+
+//declare
+//class forward declaration
+namespace humanidad{
+	class Poblacion;
+	class humano;
+	class ADAN;
+	class EVA;
+	class Cls_Mujer;
+	class Cls_Hombre;
+}
+//using
+using namespace humanidad;
+
+
+
 
 namespace Divinidad
 {
-	using namespace humanidad;
+	//using namespace humanidad;
 	class Dios
 	{
 		public:
