@@ -5,8 +5,9 @@ namespace humanidad
 {
 	class Cls_Mujer : public humano
 	{
+	private:
+
 	public:
-		const Genero_enum Genero(){return Genero_;}
 		Cls_Mujer(void);
 		~Cls_Mujer(void);
 	};

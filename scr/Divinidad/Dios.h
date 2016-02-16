@@ -11,8 +11,7 @@ namespace humanidad{
 	class humano;
 	class ADAN;
 	class EVA;
-	class Cls_Mujer;
-	class Cls_Hombre;
+
 }
 //using
 using namespace humanidad;

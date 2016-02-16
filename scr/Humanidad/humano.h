@@ -1,6 +1,6 @@
 #ifndef HUMANO_H
 #define HUMANO_H
-#include "Dios.h"
+// #include "Dios.h"
 
 namespace humanidad
 {
@@ -24,7 +24,7 @@ enum Genero_enum
 		Genero_enum Genero_;
 		void DrawMe();
 		//
-		virtual const Genero_enum Genero() = 0;
+		const Genero_enum Genero(){return Genero_;}
 	private:
 		
 		humano * papa_;
