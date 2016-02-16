@@ -13,14 +13,11 @@
 namespace Ciencia {
 namespace Cosmos {
 
-static void Crear_EspacioTiempo(void)
-{
-
-};
 
 class Planeta_Tierra: public Initialization_Manager {
-public:
-	Planeta_Tierra();
+
+	SINGLETON_DEFINITION(Planeta_Tierra)
+
 	virtual ~Planeta_Tierra();
 };
 } /* namespace Cosmos  */

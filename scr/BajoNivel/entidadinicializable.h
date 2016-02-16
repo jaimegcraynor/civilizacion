@@ -14,6 +14,7 @@ namespace Cosmos {
 class entidad_inicializable {
 public:
 	char * Entity_Name(void);
+
 protected:
 
 	entidad_inicializable(char * Nombre_Entidad);
@@ -22,6 +23,7 @@ protected:
 
 private:
 	entidad_inicializable();
+
 
 };
 } /* namespace Cosmos */

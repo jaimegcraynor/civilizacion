@@ -10,28 +10,15 @@
 #include "stddef.h"
 
 #define SINGLETON_DEFINITION(ClassName) \
-private:\
+private: \
 ClassName();\
 static ClassName *Instance_;\
 public:\
-static ClassName * GetInstance(void);\
-
-
-#define SINGLETON_IMPLEMENTATION(ClassName) \
-ClassName & ClassName::GetInstance(void)\
+static ClassName * GetInstance(void)\
 {\
-	/*if (ClassName==NULL) Instance_ = new ClassName():*/\
-	return ClassName::Instance_;\
-};\
-
-#define ENTITY_SINGLETON_IMPLEMENTATION(ClassName,ClassEntity) \
-ClassName * ClassName::GetInstance(void)\
-{\
-	/*if (ClassName==NULL) Instance_ = new ClassName((const char*)#ClassEntity);*/\
-	return ClassName::Instance_;\
-};
-
-
+	if (ClassName::Instance_ == NULL) ClassName::Instance_ = new ClassName();\
+	return ClassName::Instance_ ;\
+}\
 
 
 #endif /* BAJONIVEL_SINGLETON_IMPLEMENTACION_H_ */

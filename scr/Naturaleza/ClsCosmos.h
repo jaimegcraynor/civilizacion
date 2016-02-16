@@ -14,24 +14,16 @@ namespace Cosmos {
 class Cls_Cosmos : public entidad_inicializable {
 //this is going to be a initializable class
 
-//SINGLETON_DEFINITION(Cls_Cosmos)
+SINGLETON_DEFINITION(Cls_Cosmos)
 
-private:
-Cls_Cosmos();
-static Cls_Cosmos *Instance_;
-public:
-static Cls_Cosmos * GetInstance(void)
+
+virtual ~Cls_Cosmos();
+
+void Crear_EspacioTiempo(void)
 {
-	if (Cls_Cosmos::Instance_ == NULL) Cls_Cosmos::Instance_ = new Cls_Cosmos();
-	return Cls_Cosmos::Instance_ ;
-}
 
-/*
-public:
-	Cls_Cosmos();
-*/
+};
 
-	virtual ~Cls_Cosmos();
 };
 
 } /* namespace Cosmos */

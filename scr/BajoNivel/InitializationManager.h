@@ -14,6 +14,9 @@ namespace Ciencia {
 namespace Cosmos {
 class Initialization_Manager: public entidad_inicializable {
 public:
+
+
+
 	Initialization_Manager();
 	virtual ~Initialization_Manager();
 };
