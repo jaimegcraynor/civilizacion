@@ -7,8 +7,8 @@
 
 #ifndef NATURALEZA_ESPACIOTIEMPO_H_
 #define NATURALEZA_ESPACIOTIEMPO_H_
-#include "singleton_implementacion.h"
-#include "entidadinicializable.h"
+#include "../BajoNivel/singleton_implementacion.h"
+#include "../BajoNivel/entidadinicializable.h"
 namespace Ciencia {
 
 class EspacioTiempo {

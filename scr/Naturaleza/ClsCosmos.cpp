@@ -5,7 +5,7 @@
  *      Author: jaime
  */
 
-#include <ClsCosmos.h>
+/*#include <ClsCosmos.h>
 
 namespace Ciencia {
 namespace Cosmos {
@@ -22,4 +22,4 @@ Cls_Cosmos::~Cls_Cosmos() {
 }
 
 } /* namespace Coscmos */
-} /* namespace Ciencia */
+//}  namespace Ciencia */
